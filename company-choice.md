@@ -1,0 +1,18 @@
+I chose Brasaland as the company for my project because I have a lot of experience working in the same industry, so I feel connected to the issues that Brasaland is facing. In fact, the issues they are facing are some of the same issues I thought about when I was researching AI Engineering and considering how AI could help the industry.
+
+Each department is facing unique challenges that could be significantly improved through the implementation of automation, technology, and better organization. For instance, in the Restaurant Operations Department, we need to be able to have all the locations on a single platform and see how many tables are being served, what the peak hours are, which products are ordered the most, and which are ordered the least.
+
+In Procurement and Suppliers, we need to have a complete list of all the products we need, along with supplier information and historical price data. In Marketing and Digital Experience, we need to stay up to date with the latest technologies, have access to information about our loyal customers, and encourage them to use their loyalty rewards.
+
+People and Culture is a department that deserves my special attention because I believe that one of the biggest challenges in the restaurant industry, which can contribute to unsuccessful businesses, is the lack of effective management of employees. Employees are vital to the success of a company and can have a significant impact on its performance. Therefore, being able to track absenteeism, holiday requests, and each employee's working hours will be essential.
+
+Technology is perhaps the most important area because we need to have all the information in one place, allowing the people in charge to access it in real time and make important decisions when necessary. If we have all the information together on the same platform, organized by location, menus, sales, customers, and suppliers, and updated in real time, that would be a significant advantage for the company.
+
+However, this needs to be the foundation for everything else. Once this is implemented, the Executive Management team can operate as it is intended to, rather than receiving reports on a Tuesday and having to wait for information. Instead, they would have access to everything live and in real time.
+
+With this information, we could also create automated systems that allow the CEO to receive real-time reports on sales, profits, products, and other relevant information.
+
+
+## My AI Agent Idea
+My proposed AI Agent solution for this would be to have all the infromation stored on one plataform. We need a central API covering locations, menus, sales, customers and suppliers, plus real-time telemetry. This is a must for everything else to work. We need to connect each country POS system to get the sales, tickets, timestamps, locations and currency. For the currency we need to have it well differentiated and shown, with convertion rates to have a better understanding. We need an agent constantly giving real time feed ot the sales, stocks, and more. 
+As a second instance, having all the information, each department need to have specialized agents solving each department issues. For instance in the Operations, we need an agent giving live information of sitautions at the miami restaurant, such as only 5 customers in the last 120 minutes. Or, forecasting sales, using historical sales, to predict ingredients needs. Or how holidays affect the business. 
