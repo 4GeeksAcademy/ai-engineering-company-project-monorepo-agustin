@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#17130f" />
+    <meta name="description" content="Brasaland brings the warmth of Colombian grilling to every table, from Medellín to Florida. Discover our story and join Brasa Points." />
+    <title>Brasaland — Fire, flavor, family</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: { ember: '#e45b27', charcoal: '#17130f', cream: '#fbf6ed', mustard: '#f3bd4d' },
+            fontFamily: { display: ['Georgia', 'serif'] }
+          }
+        }
+      };
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Restaurant",
+        "name": "Brasaland",
+        "description": "A grilled food restaurant chain serving Colombian-inspired flame-grilled food across Colombia and Florida.",
+        "foundingDate": "2008",
+        "foundingLocation": { "@type": "Place", "name": "Medellín, Colombia" },
+        "areaServed": ["Colombia", "Florida, United States"],
+        "servesCuisine": ["Grilled food", "Colombian cuisine"],
+        "email": "hola@brasaland.com",
+        "numberOfEmployees": { "@type": "QuantitativeValue", "value": 115 }
+      }
+    </script>
+  </head>
+  <body class="bg-cream font-sans text-charcoal antialiased">
+    <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:bg-white focus:p-3">Skip to content</a>
+    <header class="absolute inset-x-0 top-0 z-20 text-white">
+      <div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 lg:px-10">
+        <a href="#home" class="flex items-center gap-3" aria-label="Brasaland home">
+          <span class="grid h-10 w-10 place-items-center rounded-full bg-ember text-lg font-black" aria-hidden="true">B</span>
+          <span class="text-xl font-extrabold tracking-wide">BRASALAND</span>
+        </a>
+        <nav aria-label="Main navigation" class="hidden items-center gap-8 text-sm font-semibold md:flex">
+          <a class="transition hover:text-mustard" href="#favorites">The flavor</a>
+          <a class="transition hover:text-mustard" href="#join">Contact</a>
+        </nav>
+        <a href="application.html" class="rounded-full bg-mustard px-5 py-3 text-sm font-bold text-charcoal transition hover:bg-white">Join Brasa Points <span aria-hidden="true">↗</span></a>
+      </div>
+    </header>
+
+    <main id="main">
+      <section id="home" aria-labelledby="hero-title" class="relative flex min-h-[680px] items-center overflow-hidden bg-charcoal text-white">
+        <img src="https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=2200&q=85" alt="Juicy grilled steak cooking over an open flame" class="absolute inset-0 h-full w-full object-cover opacity-55" />
+        <div class="absolute inset-0 bg-gradient-to-r from-charcoal via-charcoal/70 to-charcoal/10"></div>
+        <div class="relative mx-auto w-full max-w-7xl px-6 pb-16 pt-36 lg:px-10">
+          <p class="mb-5 text-sm font-bold uppercase tracking-[0.28em] text-mustard">Since 2008 · Medellín to Florida</p>
+          <h1 id="hero-title" class="max-w-3xl font-display text-6xl font-bold leading-[0.98] md:text-8xl">Good food.<br /><span class="text-mustard">Big fire.</span><br />Bigger heart.</h1>
+          <p class="mt-7 max-w-xl text-lg leading-8 text-white/85">We bring people together over the unmistakable taste of the grill—rooted in Colombia, made for sharing wherever you call home.</p>
+          <div class="mt-9 flex flex-wrap gap-4">
+            <a href="#favorites" class="rounded-full bg-ember px-7 py-4 font-bold text-white transition hover:bg-white hover:text-charcoal">Taste the Brasaland way <span aria-hidden="true">→</span></a>
+              <a href="#join" class="rounded-full border border-white/70 px-7 py-4 font-bold text-white transition hover:bg-white hover:text-charcoal">Get in touch</a>
+          </div>
+          <p class="mt-12 text-xs font-semibold uppercase tracking-[0.2em] text-white/70">14 locations · Colombia &amp; Florida</p>
+        </div>
+        <div class="absolute bottom-0 right-0 hidden h-36 w-36 rounded-tl-full bg-ember md:block" aria-hidden="true"></div>
+      </section>
+
+      <section id="favorites" aria-labelledby="favorites-title" class="bg-[#f1e8d9] px-6 py-24 lg:px-10 lg:py-28">
+        <div class="mx-auto max-w-7xl">
+          <div class="mx-auto max-w-2xl text-center">
+            <p class="text-sm font-bold uppercase tracking-[0.24em] text-ember">Our recipe for a good time</p>
+            <h2 id="favorites-title" class="mt-4 font-display text-5xl font-bold md:text-6xl">Simple things. Unforgettable flavor.</h2>
+            <p class="mt-5 leading-7 text-charcoal/70">The Brasaland difference is in every detail, from the first spark to the last bite.</p>
+          </div>
+          <div class="mt-14 grid gap-6 md:grid-cols-3">
+            <article class="rounded-3xl bg-cream p-8">
+              <span class="text-4xl" aria-hidden="true">🔥</span>
+              <h3 class="mt-6 font-display text-2xl font-bold">Real fire, real flavor</h3>
+              <p class="mt-3 leading-7 text-charcoal/70">Flame-grilled favorites, made fresh with the bold, generous spirit of our Colombian roots.</p>
+            </article>
+            <article class="rounded-3xl bg-cream p-8">
+              <span class="text-4xl" aria-hidden="true">🤝</span>
+              <h3 class="mt-6 font-display text-2xl font-bold">A seat for everyone</h3>
+              <p class="mt-3 leading-7 text-charcoal/70">Warm welcomes and food made for passing around—because the people at your table matter most.</p>
+            </article>
+            <article class="rounded-3xl bg-cream p-8">
+              <span class="text-4xl" aria-hidden="true">🌎</span>
+              <h3 class="mt-6 font-display text-2xl font-bold">One taste, two worlds</h3>
+              <p class="mt-3 leading-7 text-charcoal/70">From Medellín to Florida, we bring the same care, quality, and unmistakable Brasaland flavor.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="join" aria-labelledby="join-title" class="bg-ember px-6 py-16 text-white lg:px-10">
+        <div class="mx-auto flex max-w-7xl flex-col gap-6 md:flex-row md:items-center md:justify-between">
+          <div>
+            <p class="text-sm font-bold uppercase tracking-[0.24em] text-white/75">Good things come to our people</p>
+            <h2 id="join-title" class="mt-3 font-display text-4xl font-bold md:text-5xl">Get more from every visit.</h2>
+            <p class="mt-3 max-w-xl leading-7 text-white/85">Join Brasa Points and enjoy a little extra love from Brasaland. Questions? Email <a class="underline underline-offset-4 hover:text-mustard" href="mailto:hola@brasaland.com">hola@brasaland.com</a>.</p>
+          </div>
+          <a href="application.html" class="shrink-0 rounded-full bg-charcoal px-7 py-4 text-center font-bold text-white transition hover:bg-white hover:text-charcoal">Sign up for Brasa Points <span aria-hidden="true">→</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-charcoal px-6 py-12 text-white lg:px-10">
+      <div class="mx-auto flex max-w-7xl flex-col gap-8 md:flex-row md:items-center md:justify-between">
+        <div>
+          <a href="#home" class="text-xl font-extrabold tracking-wide" aria-label="Brasaland home">BRASALAND</a>
+          <p class="mt-2 text-sm text-white/60">Fire, flavor, family. Since 2008.</p>
+        </div>
+        <nav aria-label="Footer navigation" class="flex flex-wrap gap-x-6 gap-y-3 text-sm text-white/75">
+          <a class="hover:text-mustard" href="#favorites">The flavor</a>
+          <a class="hover:text-mustard" href="#join">Brasa Points</a>
+          <a class="hover:text-mustard" href="mailto:hola@brasaland.com">Contact</a>
+        </nav>
+      </div>
+      <div class="mx-auto mt-8 max-w-7xl border-t border-white/15 pt-6 text-xs text-white/50">© <span id="year">2026</span> Brasaland. Made with heart in Colombia.</div>
+    </footer>
+  </body>
+</html>
